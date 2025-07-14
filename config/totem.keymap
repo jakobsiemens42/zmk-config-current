@@ -58,7 +58,7 @@
 
         base_toggle {
             bindings = <&to 0>;
-            key-positions = <20 34 35 31>;
+            key-positions = <20 31 32 37>;
             layers = <3>;
         };
     };
