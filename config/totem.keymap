@@ -82,13 +82,13 @@
             >;
         };
 
-        Fun {
-            display-name = "Fun";
+        no_hrm {
+            display-name = "No homerow mods";
             bindings = <
-        &bootloader  &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &kp END  &kp F1
-        &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F10
-&trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F20  &kp F7
-                             &trans  &trans  &trans    &trans  &trans  &trans
+         &kp Q  &kp W  &kp E      &kp R    &kp T        &kp Y      &kp U          &kp I      &kp O       &kp P
+         &kp A  &kp S  &kp D      &kp F    &kp G        &kp H      &kp J          &kp K      &kp L       &kp SEMICOLON
+&kp ESC  &kp Z  &kp X  &kp C      &kp V    &kp B        &kp N      &kp M          &kp COMMA  &kp PERIOD  &kp SLASH      &kp SQT
+                       &kp LCTRL  &kp TAB  &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp MINUS
             >;
         };
 
