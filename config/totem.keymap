@@ -47,7 +47,21 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        no_hrm_toggle {
+            bindings = <&to 3>;
+            key-positions = <20 31 32 37>;
+            layers = <0>;
+        };
+
+        base_toggle {
+            bindings = <&to 0>;
+            key-positions = <20 34 35 31>;
+            layers = <3>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
