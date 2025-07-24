@@ -52,13 +52,13 @@
 
         no_hrm_toggle {
             bindings = <&to 3>;
-            key-positions = <20 31 32 37>;
+            key-positions = <32 33 34>;
             layers = <0>;
         };
 
         base_toggle {
             bindings = <&to 0>;
-            key-positions = <20 31 32 37>;
+            key-positions = <37 36 35>;
             layers = <3>;
         };
     };
