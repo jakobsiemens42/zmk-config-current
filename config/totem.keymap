@@ -61,6 +61,11 @@
             key-positions = <37 36 35>;
             layers = <3>;
         };
+
+        TO_FNC_KEYS {
+            bindings = <&to 6>;
+            key-positions = <32 37>;
+        };
     };
 
     macros {
@@ -90,7 +95,7 @@
             bindings = <
                  &kp TILDE       &trans     &trans  &trans    &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
                  &kp LEFT_SHIFT  &trans     &trans  &trans    &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&mac_screenshot  &kp LEFT_WIN    &kp MINUS  &trans  &kp PLUS  &kp LPAR            &kp RPAR           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
+&kp PRINTSCREEN  &kp LEFT_WIN    &kp MINUS  &trans  &kp PLUS  &kp LPAR            &kp RPAR           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
                                             &trans  &trans    &trans              &trans             &trans        &kp DOT
             >;
         };
@@ -98,10 +103,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT       &kp CARET      &kp AMPERSAND  &kp KP_ASTERISK  &kp GRAVE        &kp EQUAL
-                &trans    &trans  &trans    &trans      &trans            &kp BACKSLASH  &kp LEFT       &kp UP_ARROW     &kp RIGHT_ARROW  &kp SLASH
-&studio_unlock  &trans    &trans  &trans    &trans      &trans            &kp UNDER      &kp EQUAL      &kp DOWN_ARROW   &kp PAGE_DOWN    &kp PAGE_UP  &kp HOME
-                                  &trans    &kp LCTRL   &kp LEFT_SHIFT    &trans         &trans         &trans
+                &kp EXCL         &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT       &kp CARET      &kp AMPERSAND  &kp KP_ASTERISK  &kp GRAVE  &kp EQUAL
+                &trans           &trans  &trans    &trans      &trans            &kp BACKSLASH  &trans         &kp UP_ARROW     &trans     &kp SLASH
+&studio_unlock  &kp PRINTSCREEN  &trans  &trans    &trans      &trans            &kp UNDER      &kp LEFT       &kp DOWN_ARROW   &kp RIGHT  &kp HOME   &kp END
+                                         &trans    &kp LCTRL   &kp LEFT_SHIFT    &trans         &trans         &trans
             >;
         };
 
@@ -137,10 +142,10 @@
 
         FNC_KEYS {
             bindings = <
-        &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans
-&kp F1  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &kp F12
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &kp F2  &kp F3  &kp F4  &kp F5        &kp F6            &kp F7           &kp F8     &kp F9           &kp F10  &kp F11
+        &trans  &trans  &trans  &trans        &trans            &trans           &trans     &trans           &trans   &trans
+&kp F1  &trans  &trans  &trans  &trans        &trans            &trans           &trans     &trans           &trans   &trans   &kp F12
+                        &trans  &kp LEFT_ALT  &kp LEFT_SHIFT    &kp RIGHT_SHIFT  &kp RCTRL  &kp PRINTSCREEN
             >;
         };
     };
