@@ -78,9 +78,9 @@
         Base {
             display-name = "Base";
             bindings = <
-            &kp Q  &kp W       &kp E        &kp R        &kp T        &kp Y    &kp U        &kp I            &kp O         &kp P
-            &kp A  &kp S       &kp D        &kp F        &kp G        &kp H    &kp J        &kp K            &kp L         &kp SEMI
-&kp ESCAPE  &kp Z  &hm LALT X  &hm LCTRL C  &hm LSHFT V  &kp B        &kp N    &hm RSHFT M  &hm RCTRL COMMA  &hm RALT DOT  &kp SLASH  &kp APOSTROPHE
+            &kp Q  &kp W       &kp E        &kp R        &kp T        &kp Y    &kp U        &kp I            &kp O             &kp P
+            &kp A  &kp S       &kp D        &kp F        &kp G        &kp H    &kp J        &kp K            &kp L             &kp SEMI
+&kp ESCAPE  &kp Z  &hm LALT X  &hm LCTRL C  &hm LSHFT V  &kp B        &kp N    &hm RSHFT M  &hm RCTRL COMMA  &hm LEFT_ALT DOT  &kp SLASH  &kp APOSTROPHE
                                &kp DEL      &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 BSPC   &lt 6 MINUS
             >;
         };
@@ -88,9 +88,9 @@
         Nav {
             display-name = "Nav";
             bindings = <
-                 &kp TILDE       &kp F8           &kp F10              &kp F12            &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp NUMBER_7              &kp NUMBER_8                &kp NUMBER_9            &kp NUMBER_0
-                 &kp LEFT_SHIFT  &kp F4           &kp F5               &kp F6             &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp NUMBER_4              &kp NUMBER_5                &kp NUMBER_6            &kp MINUS
-&kp PRINTSCREEN  &kp LEFT_WIN    &hm LEFT_ALT F1  &hm LEFT_CONTROL F2  &hm LEFT_SHIFT F3  &kp LPAR            &kp RPAR           &hm RIGHT_SHIFT NUMBER_1  &hm RIGHT_CONTROL NUMBER_2  &hm RIGHT_ALT NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
+                 &kp TILDE       &kp F8           &kp F10              &kp F12            &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp NUMBER_7              &kp NUMBER_8                &kp NUMBER_9           &kp NUMBER_0
+                 &kp LEFT_SHIFT  &kp F4           &kp F5               &kp F6             &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp NUMBER_4              &kp NUMBER_5                &kp NUMBER_6           &kp MINUS
+&kp PRINTSCREEN  &kp LEFT_WIN    &hm LEFT_ALT F1  &hm LEFT_CONTROL F2  &hm LEFT_SHIFT F3  &kp LPAR            &kp RPAR           &hm RIGHT_SHIFT NUMBER_1  &hm RIGHT_CONTROL NUMBER_2  &hm LEFT_ALT NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
                                                   &trans               &trans             &trans              &trans             &trans                    &kp DOT
             >;
         };
@@ -98,10 +98,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL         &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp KP_ASTERISK  &kp GRAVE  &kp EQUAL
-                &trans           &trans  &trans    &trans      &trans         &kp BACKSLASH  &trans         &kp UP_ARROW     &trans     &kp SLASH
-&studio_unlock  &kp PRINTSCREEN  &trans  &trans    &trans      &trans         &kp MINUS      &kp LEFT       &kp DOWN_ARROW   &kp RIGHT  &kp HOME   &kp END
-                                         &trans    &trans      &trans         &trans         &trans         &trans
+          &kp EXCL         &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp KP_ASTERISK  &kp GRAVE  &kp EQUAL
+          &trans           &trans  &trans    &trans      &trans         &kp BACKSLASH  &trans         &kp UP_ARROW     &trans     &kp SLASH
+&kp CAPS  &kp PRINTSCREEN  &trans  &trans    &trans      &trans         &kp MINUS      &kp LEFT       &kp DOWN_ARROW   &kp RIGHT  &kp HOME   &kp END
+                                   &trans    &trans      &trans         &trans         &trans         &trans
             >;
         };
 
